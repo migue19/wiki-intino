@@ -15,7 +15,7 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'Intersphere', // Usually your GitHub org/user name.
+  organizationName: 'migue19', // Usually your GitHub org/user name.
   projectName: 'wiki-intino', // Usually your repo name.
 
   onBrokenLinks: 'throw',
@@ -54,18 +54,6 @@ const config: Config = {
     ],
   ],
 
-  plugins: [
-    [
-      '@docusaurus/plugin-content-docs',
-      {
-        id: 'sistemas',
-        path: 'sistemas',
-        routeBasePath: 'sistemas',
-        sidebarPath: require.resolve('./sidebarsSistemas.js'),
-      }
-    ]
-  ],
-
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
@@ -83,7 +71,6 @@ const config: Config = {
           label: 'Inicio',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
-        {to: '/sistemas', label: 'Sistemas', position: 'left'},
         {
           href: 'https://intino.systems',
           label: 'Intino',
