@@ -25,33 +25,15 @@ Intino proporciona varios lenguajes específicos de dominio (dsl):
 - [Toolbox](https://www.jetbrains.com/es-es/) version 2.2 o superior.
 - [IntelliJ](https://www.jetbrains.com/idea/download/) version 2024.1 o superior.
 
+### Toolbox
+
 ![Docusaurus logo](/img/toolbox.png)
 
-## Generate a new site
+**Con esta herramienta puedes actualizar la aplicacion:**
 
-Generate a new Docusaurus site using the **classic template**.
+![Docusaurus logo](/img/toolbox-1.png)
 
-The classic template will automatically be added to your project after you run the command:
+**Gestionar la version:**
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+![Docusaurus logo](/img/toolbox-2.png)
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
