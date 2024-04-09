@@ -10,32 +10,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Flexibilidad',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Con intino, la evolución del software está hecha a medida, es decir, sistemas en evolución creados específicamente para las necesidades de un cliente en particular.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Reusable',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Esta es la estrategia que crea una oportunidad de obtener beneficios al reducir el esfuerzo y los costos necesarios para crear, implementar y software.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Calidad',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Los desarrolladores de aplicaciones pueden centrarse en los requisitos del usuario, obteniendo ventaja de la arquitectura de la plataforma que proporciona una calidad estable.
       </>
     ),
   },

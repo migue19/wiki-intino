@@ -2,11 +2,9 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Instalación de Intino
 
-Let's discover **Docusaurus in less than 5 minutes**.
-
-## Getting Started
+## Empezemos
 
 Get started by **creating a new site**.
 
