@@ -8,15 +8,15 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://github.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/wiki-intino/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'Intersphere', // Usually your GitHub org/user name.
+  projectName: 'wiki-intino', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -54,13 +54,25 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'sistemas',
+        path: 'sistemas',
+        routeBasePath: 'sistemas',
+        sidebarPath: require.resolve('./sidebarsSistemas.js'),
+      }
+    ]
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
       title: 'Intino Wiki',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'Intino',
         src: 'img/logo.png',
       },
       items: [
@@ -71,9 +83,10 @@ const config: Config = {
           label: 'Inicio',
         },
         {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/sistemas', label: 'Sistemas', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://intino.systems',
+          label: 'Intino',
           position: 'right',
         },
       ],
@@ -121,7 +134,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Intersphere`,
     },
     prism: {
       theme: prismThemes.github,
