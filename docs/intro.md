@@ -1,19 +1,31 @@
 ---
 sidebar_position: 1
 ---
+# INTINO
 
-# Instalación de Intino
+## ¿Que es Intino?
+
+Intino es una herramienta de desarrollo Java orientada a desarrollar familias de aplicaciones con el uso del editor IntelliJ.
 
 ## Empezemos
 
-Get started by **creating a new site**.
+Intino integra varias herramientas para el desarrollo e implementación de soliciones de software automatizadas.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Soporta la creación de líneas de producción de software que involucran: modelado de plataforma y producto, una arquitectura en capas que incluye interfaz gráfica de usuario, servicios de descanso, persistencia, abastecimiento de eventos e integración continua basada tanto en código fuente como en repositorios de artefactos.
 
-### What you'll need
+Intino proporciona varios lenguajes específicos de dominio (dsl): 
+- **Proteo DSL:** para modelado de productos.
+- **Meta DSL:** para modelado de plataformas.
+- **Konos DSL:** para modelado de arquitectura en capas.
+- **Legio DSL:** para modelado de integración continua.
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+**Sitio oficial** de **[Intino](https://intino.systems/)**.
+
+### Que necesitamos
+- [Toolbox](https://www.jetbrains.com/es-es/) version 2.2 o superior.
+- [IntelliJ](https://www.jetbrains.com/idea/download/) version 2024.1 o superior.
+
+![Docusaurus logo](/img/toolbox.png)
 
 ## Generate a new site
 
