@@ -4,6 +4,6 @@
 
 ![Docusaurus logo](/img/intellij.png)
 
-**En el Marketplace buscar Intino**
+**En el Marketplace buscar Intino:**
 
 ![Docusaurus logo](/img/intellij-1.png)
