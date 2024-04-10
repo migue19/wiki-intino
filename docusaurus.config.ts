@@ -3,8 +3,8 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'INTINO Framework',
-  tagline: 'En esta pagina encontraras la documentación necesaria sobre Intino.',
+  title: 'INTINO - Wiki',
+  tagline: 'Esta pagina contiene la documentación necesaria para usar Intino',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
