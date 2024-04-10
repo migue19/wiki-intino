@@ -1,7 +1,9 @@
 # Instalación de Intino
 
-Intino es una herramienta de desarrollo Java orientada a desarrollar familias.
+**Lo primero es abrir IntelliJ y seleccionar la sección de plugins:**
 
-# IDE
+![Docusaurus logo](/img/intellij.png)
 
-Para el desarrollo de esta aplicaciones usaremos IntelliJ.
+**En el Marketplace buscar Intino**
+
+![Docusaurus logo](/img/intellij-1.png)
