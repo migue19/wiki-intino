@@ -11,7 +11,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: 'Flexibilidad',
-    Svg: require('@site/static/img/footer-1.svg').default,
+    Svg: require('@site/static/img/icons-01.svg').default,
     description: (
       <>
         Con intino, la evolución del software está hecha a medida, es decir, sistemas en evolución creados específicamente para las necesidades de un cliente en particular.
@@ -20,7 +20,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Reusable',
-    Svg: require('@site/static/img/footer-2.svg').default,
+    Svg: require('@site/static/img/icons-02.svg').default,
     description: (
       <>
         Esta es la estrategia que crea una oportunidad de obtener beneficios al reducir el esfuerzo y los costos necesarios para crear, implementar y software.
@@ -29,7 +29,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: 'Calidad',
-    Svg: require('@site/static/img/footer-3.svg').default,
+    Svg: require('@site/static/img/icons-03.svg').default,
     description: (
       <>
         Los desarrolladores de aplicaciones pueden centrarse en los requisitos del usuario, obteniendo ventaja de la arquitectura de la plataforma que proporciona una calidad estable.
