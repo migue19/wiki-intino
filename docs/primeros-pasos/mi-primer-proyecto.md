@@ -31,3 +31,20 @@ Artifact(groupId = "com.intersphere", version = "1.0.0") new-proyect-intino
 	Package(mode = ModulesAndLibrariesLinkedByManifest)
 RunConfiguration local
 ```
+
+5.- Despues de la definición del artifact podemos agregar un `Box` con los siguientes parametros:
+- DSl: Konos, Legios, Proteo, Meta
+- Versión  
+```bash
+Box("Konos", "11.0.5")
+```
+
+6.- Seccion de imports en la cual agregamos todas las dependencias que se requiran:
+```jsx
+Imports
+		Test(groupId = "junit", artifactId = "junit", version = "4.13")
+```
+7.- En el `Package` seleccionamos la configuración de nuestro packete.
+```jsx
+Package(mode = ModulesAndLibrariesLinkedByManifest)
+```
