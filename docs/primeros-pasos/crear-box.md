@@ -64,3 +64,11 @@ RunConfiguration local
 Y es necesario re-construir el modulo para actualizar las dependencias.
 
 ![Docusaurus logo](/img/box-5.png)
+
+Ahora nos muestra un nuevo error por que no encuentra la carpeta `resources` y es necesario crearla
+
+![Docusaurus logo](/img/box-7.png)
+
+Debe de quedar de la siguiente manera
+
+![Docusaurus logo](/img/box-8.png)
