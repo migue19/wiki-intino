@@ -1,10 +1,10 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # Manejo de Dependecias
 
-El manejo de depencias en intino es demasiado sencillo, el primer paso es definir el repositorio donde esta alojado el artefacto:
+El manejo de depencias en intino es demasiado sencillo. El primer paso es definir el repositorio, donde esta alojado el artefacto:
 
 - Nombre del repositorio.
 - Url del repositorio.
