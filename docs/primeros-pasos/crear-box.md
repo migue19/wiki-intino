@@ -2,7 +2,7 @@
 sidebar_position: 6
 ---
 
-# Crear Box
+# Crear UI Box manual
 
 En esta ocasion crearemos un nuevo UI Box
 
