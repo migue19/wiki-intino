@@ -35,3 +35,7 @@ Se encarga del despligue del proyecto.
 Se encarga de listar, eliminar y recargar las dependencias que agregamos en nuestro proyecto.
 
 ![Docusaurus logo](/img/intellij-7.png)
+
+De igual forma podemos encontrar estas opciones en el panel superior
+
+![Docusaurus logo](/img/intellij-8.png)
