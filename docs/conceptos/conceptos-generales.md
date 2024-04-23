@@ -1,11 +1,11 @@
 ---
 sidebar_position: 1
 ---
-# Conceptos generales Intino
+# Box
 
-## Box
+## ¿Que es un Box en Intino?
 
-Una caja o envoltura la cual representa la estructura y definicion de lo que queremos realizar.
+Para intino un `Box` es una caja o envoltura la cual representa la estructura y definicion de lo que queremos realizar.
 - Entradas
 - Salidas
 - Puerto
