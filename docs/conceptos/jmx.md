@@ -9,3 +9,13 @@ Proporciona una infraestructura f√°cilmente configurable, escalable, fiable y m√
 <div style={{textAlign: 'center'}}>
 ![image](/img/jmx.png)
 </div>
+
+**JXM** te permite `Monitoreas`, `Leer`, `Grabar` o `Lanzar` operaciones creando un **Bean** personalizado en tiempo de ejecucion.
+
+Esto quiere decir que mientras esta corriendo tu aplicaciones, tu puedes extraer, consultar modificar o si asi lo deseas eliminar datos en tiempo real.
+
+**Ejemplo:**
+
+Tenemos definido un arreglo de mensajes que al llegar a 50 mensajes hace el `flush` del arreglo.
+Utilizando JMX podemos modificar el parametro del numero de mensajes a 10 si asi lo necesitamos.
+
