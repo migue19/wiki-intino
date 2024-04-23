@@ -31,12 +31,11 @@ public class GetExampleAction implements io.intino.alexandria.rest.RequestErrorH
 	public String division;
 	public mx.intershere.mailsender.box.MailSenderBox box;
 	public io.intino.alexandria.http.spark.SparkContext context;
-	public String filter;
 
 	public String execute() throws BadRequest, NotFound {
 		// todo: implement logic.
 		Logger.info("parameters are: " + aniomes + " " + zona + " " + division);
-        return String.join(",", List.of("val1", "val2", "val3"));
+    		return String.join(",", List.of("val1", "val2", "val3"));
 	}
 
 	public void onMalformedRequest(Throwable e) throws AlexandriaException {
@@ -52,3 +51,20 @@ Para ejecutar el codigo generado demos correr la clase Main
 Si no se define un puerto por defecto intino utilizara el puerto `8080``
 
 ![Docusaurus logo](/img/service-1.png)
+
+para probar el servicio podemos correr el siguente codigo en terminal
+
+```bash
+ curl "http://localhost:8080/api/v1/reports?division=DC&zona=01&aniomes=202404"
+```
+
+Resultado:
+
+![Docusaurus logo](/img/service-2.png)
+
+y el `Log` nos mostrara la informacion que solicimos:
+- Año y mes : **202404**
+- Zona: **01**
+- Devision: **DC**
+
+![Docusaurus logo](/img/service-3.png)
