@@ -43,3 +43,32 @@ public class TestDeviceAction {
 	}
 }
 ```
+**Ejecutar jmx en un servidor:**
+
+Para este procesos ejecutamos un cliente JMX
+
+```bash
+java -jar jmxterm-1.0.2-uber.jar
+```
+posteriormente abrimos la conexion:
+
+```kotlin
+open localhost:10006 
+```
+Creamos nuestro MBean personalizado:
+
+```kotlin
+bean Konos:name=Operations,type=io.provista.cosmos.box.jmx.OperationsMBean
+```
+
+Si ejecutamos el comando info el programa listará:
+- atributos
+- operaciones
+
+![image](/img/jmx-1.png)
+
+Para ejecutar una operacion de la lista ocupamos el comando `run`:
+
+```
+run help
+```
