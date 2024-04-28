@@ -18,3 +18,12 @@ El proceso comercial en cuenta maestra.
 **Timbrado:** Avisar al sat que el usuario ya pago.
 
 **Cobranza:** Realizar cobranza del adeudo.
+
+
+## Glosario
+
+**CFDI Factura PPD:** Pago por definir.
+
+**Complemento de Pago:** Va ligado a PPD cuando se realiza el pago de la factura se debe generar el complemento de pago.
+
+**CFDI Factura PUE:** Pago en una exhibicion.
