@@ -26,6 +26,7 @@ El proceso comercial en cuenta maestra.
 
 **Cobranza:** Realizar cobranza del adeudo.
 
+![image](/img/cm-1.png)
 
 ## Glosario
 
