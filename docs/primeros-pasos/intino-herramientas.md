@@ -20,6 +20,7 @@ Al dar click en el botón import, intino se encargara de recargar las dependenci
 
 **Export:**
 Exporta el artefacto con el que se esta trabajando.
+- <kbd>Shift</kbd> + <kbd>Click</kbd>: Exporta solo en local `Crea un componente de Terminal`
 
 **Pack:**
 Empaqueta el artefacto con el que se esta trabajando (JAR).

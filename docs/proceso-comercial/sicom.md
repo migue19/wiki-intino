@@ -9,7 +9,7 @@ Es un conjunto de archivos `SCARCH` indexados, los que veremos son los siguentes
 Contiene los contratos
 - Campo Envio-Recibo: este es el campo clave para identificar a las empresas grandes.
 
-**dj*s1 -RUTAS:**
+**s1 -RUTAS:**
 Ubicacion del servicio
 
 **s5:**
