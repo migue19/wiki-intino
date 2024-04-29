@@ -1,7 +1,7 @@
 ---
 sidebar_position: 3
 ---
-# El Proceso Comercial en CM
+# El Proceso Comercial en Cuenta Maestra
 
 El proceso comercial en cuenta maestra.
 
@@ -25,6 +25,8 @@ El proceso comercial en cuenta maestra.
     - Timbrado.
 
 **Cobranza:** Realizar cobranza del adeudo.
+
+## Diagramas
 
 ![image](/img/cm-1.png)
 
