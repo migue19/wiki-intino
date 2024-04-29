@@ -3,11 +3,11 @@ sidebar_position: 2
 ---
 # SICOM
 
-Es un conjunto de archivos indexados los que veremos son los siguentes:
+Es un conjunto de archivos `SCARCH` indexados, los que veremos son los siguentes:
 
 **s2/s2A - CONTRATOS:**
 Contiene los contratos
-- Campo Envio-Recibo
+- Campo Envio-Recibo: este es el campo clave para identificar a las empresas grandes.
 
 **dj*s1 -RUTAS:**
 Ubicacion del servicio
