@@ -83,16 +83,16 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Documentacion',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Inicio',
               to: '/docs/intro',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Comunidad',
           items: [
             {
               label: 'Stack Overflow',
@@ -109,7 +109,7 @@ const config: Config = {
           ],
         },
         {
-          title: 'More',
+          title: 'Más',
           items: [
             {
               label: 'GitHub',
