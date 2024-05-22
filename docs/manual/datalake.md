@@ -1,4 +1,8 @@
-### Data Lake en Intino Framework
+---
+sidebar_position: 4
+---
+
+# Data Lake en Intino Framework
 
 El Intino Framework, conocido por su enfoque en el desarrollo dirigido por modelos (MDD) y la generación automática de código, también ofrece capacidades para integrar y gestionar un Data Lake. A continuación, se describe cómo el Intino Framework puede ser utilizado para crear, gestionar y utilizar un Data Lake, aprovechando sus características para el almacenamiento y análisis de grandes volúmenes de datos.
 

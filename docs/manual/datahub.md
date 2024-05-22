@@ -1,4 +1,8 @@
-### Data Hub en Intino Framework
+---
+sidebar_position: 5
+---
+
+# Data Hub en Intino Framework
 
 El Intino Framework puede ser utilizado para implementar un Data Hub, proporcionando una plataforma centralizada para la gestión, integración y distribución de datos. A continuación, se describe cómo el Intino Framework puede ser aprovechado para crear y gestionar un Data Hub, detallando los conceptos fundamentales, la arquitectura, y las mejores prácticas.
 

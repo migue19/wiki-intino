@@ -1,4 +1,8 @@
-### Estructura del Proyecto en Intino
+---
+sidebar_position: 6
+---
+
+# Estructura del Proyecto en Intino
 
 Para aprovechar al máximo las capacidades del Intino Framework, es fundamental entender cómo se organiza un proyecto típico. A continuación se describe la estructura estándar de un proyecto en Intino, detallando los directorios y archivos principales que lo componen.
 
