@@ -1,8 +1,8 @@
-# Website
+# Wiki Intino
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Documentacion sobre Intino y uso
 
-### Installation
+### Requisitos
 
 ```
 $ yarn
