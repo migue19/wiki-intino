@@ -1,9 +1,7 @@
 ---
 sidebar_position: 7
 ---
-# DataLake y DataMart
-
-## DataLake
+# DataLake
 
 Un Data Lake es un repositorio de almacenamiento que permite almacenar grandes volúmenes de datos en su forma nativa, ya sea estructurada, semi-estructurada o no estructurada. A diferencia de los sistemas tradicionales de bases de datos, que suelen requerir un esquema predeterminado y estructurado, un Data Lake puede almacenar datos en su formato original sin necesidad de procesamiento o transformación previa.
 
@@ -42,12 +40,3 @@ Un Data Lake es un repositorio de almacenamiento que permite almacenar grandes v
 •⁠  ⁠Internet de las Cosas (IoT): Facilita el almacenamiento y análisis de datos generados por dispositivos IoT en tiempo real.
 
 En resumen, un Data Lake es una solución poderosa y flexible para el almacenamiento y análisis de grandes volúmenes de datos, proporcionando a las organizaciones la capacidad de extraer valor de sus datos de manera eficiente y escalable. Sin embargo, su implementación y gestión adecuada son cruciales para evitar posibles complicaciones y maximizar sus beneficios.
-
-![image](/img/data-lake.png)
-
-## DataMart
-
-En intino es una representación del modelo que puede almacenarse en archivos stash.
-- Son la representacion del Grafo. 
-
-![image](/img/data-mart.png)
