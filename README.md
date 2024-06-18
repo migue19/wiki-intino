@@ -1,41 +1,59 @@
 # Wiki Intino
 
-Documentacion sobre Intino y uso
+Documentacion sobre Intino y uso de este framework.
 
-### Requisitos
+## Requisitos de Instalación en Servidor
 
-```
-$ yarn
-```
+## Prerequisitos
 
-### Local Development
+Tener instalado Docker
 
-```
-$ yarn start
-```
+## Pasos de Instalación
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
+Clonar el repositorio:
+```bash 
+git clone https://github.com/migue19/wiki-intino.git
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Dentro de la carpeta raiz del proyecto existe el archivo llamado `Dockerfile` el cual tenemos que ejecutar con el comando
 
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
+```bash
+docker build -t wiki .
 ```
 
-Not using SSH:
+con esto se creara la imagen de docker y para ejecutar el contenedor se corre el comando:
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
+```bash
+docker run -p 3001:3000 -d --restart unless-stopped wiki
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## Pasos de Actualización
+
+para ejecutar una actualizacion se debe actualizar el repositorio
+
+```bash
+git pull
+```
+
+Construir nuevamente la imagen de docker
+
+```bash
+docker build -t wiki .
+```
+
+Listar los contenedores activos
+
+```bash
+docker ps
+```
+Detener el contenedor
+
+```bash
+docker stop container-id
+```
+
+levantar el contenedor nuevamente
+
+```bash
+docker run -p 3001:3000 -d --restart unless-stopped wiki
+```
